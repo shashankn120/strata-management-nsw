@@ -37,7 +37,7 @@ export default function Home() {
       </section>
 
       <section style={{ padding: '2rem 1rem', maxWidth: '900px', margin: '0 auto', fontSize: '1.1rem' }}>
-        <h2>Features you'll find here:</h2>
+        <h2>Key features available to you:</h2>
         <ul style={{ marginTop: '1rem', lineHeight: '1.8' }}>
           <li>📋 View and manage levy notices and payment history</li>
           <li>🏠 Track maintenance requests and updates</li>
