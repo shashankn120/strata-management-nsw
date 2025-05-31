@@ -4,24 +4,47 @@ import Layout from '../components/Layout'
 export default function Home() {
   return (
     <Layout>
-      <h2>Welcome to your Owners Corporation Dashboard</h2>
-      <p>
-        This site helps you manage levies, meetings, and committee roles under the Strata Schemes Management Act (2015).
-      </p>
-      <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '1rem' }}>
-        <Image
-          src="/apt-2.jpg"
-          alt="Apartment exterior"
-          width={400}
-          height={300}
-        />
-        <Image
-          src="/sydneyapt-1.webp"
-          alt="Apartment interior view"
-          width={400}
-          height={300}
-        />
-      </div>
+      <section style={{ textAlign: 'center', padding: '2rem 1rem' }}>
+        <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>
+          Welcome to Your Owners Corporation Dashboard
+        </h1>
+        <p style={{ fontSize: '1.2rem', maxWidth: '800px', margin: '0 auto', lineHeight: '1.6' }}>
+          This portal is designed to help owners and residents manage the day-to-day operations of strata-titled properties in New South Wales.
+          Stay on top of levies, meetings, maintenance, and more in accordance with the 
+          <strong> Strata Schemes Management Act (2015)</strong>.
+        </p>
+      </section>
+
+      <section style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', flexWrap: 'wrap', padding: '1rem' }}>
+        <div style={{ boxShadow: '0 4px 12px rgba(0,0,0,0.1)', borderRadius: '12px', overflow: 'hidden' }}>
+          <Image
+            src="/apt-2.jpg"
+            alt="Apartment exterior"
+            width={400}
+            height={300}
+            style={{ objectFit: 'cover' }}
+          />
+        </div>
+        <div style={{ boxShadow: '0 4px 12px rgba(0,0,0,0.1)', borderRadius: '12px', overflow: 'hidden' }}>
+          <Image
+            src="/sydneyapt-1.webp"
+            alt="Apartment interior view"
+            width={400}
+            height={300}
+            style={{ objectFit: 'cover' }}
+          />
+        </div>
+      </section>
+
+      <section style={{ padding: '2rem 1rem', maxWidth: '900px', margin: '0 auto', fontSize: '1.1rem' }}>
+        <h2>Features you'll find here:</h2>
+        <ul style={{ marginTop: '1rem', lineHeight: '1.8' }}>
+          <li>📋 View and manage levy notices and payment history</li>
+          <li>🏠 Track maintenance requests and updates</li>
+          <li>🗳️ Participate in meetings and decision-making</li>
+          <li>📄 Access important strata documents and agendas</li>
+        </ul>
+      </section>
     </Layout>
   )
 }
