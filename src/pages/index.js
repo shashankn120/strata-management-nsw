@@ -6,10 +6,10 @@ export default function Home() {
     <Layout>
       <section style={{ textAlign: 'center', padding: '2rem 1rem' }}>
         <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>
-          Welcome to Your Owners Corporation Dashboard
+          Welcome to The Owner's Corporation Dashboard
         </h1>
         <p style={{ fontSize: '1.2rem', maxWidth: '800px', margin: '0 auto', lineHeight: '1.6' }}>
-          This portal is designed to help owners and residents manage the day-to-day operations of strata-titled properties in New South Wales.
+          This portal is designed to help owners and residents manage the day-to-day operations of strata-titled properties in NSW.
           Stay on top of levies, meetings, maintenance, and more in accordance with the 
           <strong> Strata Schemes Management Act (2015)</strong>.
         </p>
