@@ -8,7 +8,7 @@ export default function Home() {
       <p>
         This site helps you manage levies, meetings, and committee roles under the Strata Schemes Management Act (2015).
       </p>
-      <div style={{ display: 'flex', gap: '1rem' }}>
+      <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '1rem' }}>
         <Image
           src="/apt-2.jpg"
           alt="Apartment exterior"
