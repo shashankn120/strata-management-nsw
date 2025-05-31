@@ -9,7 +9,7 @@ export default function Home() {
           Welcome to The Owner&apos;s Corporation Dashboard
         </h1>
         <p style={{ fontSize: '1.2rem', maxWidth: '800px', margin: '0 auto', lineHeight: '1.6' }}>
-          This portal is designed to help owners & residents manage day-to-day operations of strata-titled properties in NSW.
+          This portal is designed to help owners & residents manage day-to-day operations of The Harbour View Apartment, Sydney, NSW.
           Stay on top of levies, meetings, maintenance, and more in accordance with the 
           <strong> Strata Schemes Management Act (2015)</strong>.
         </p>
