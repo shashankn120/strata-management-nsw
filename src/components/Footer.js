@@ -1,7 +1,8 @@
+// src/components/Footer.js
 export default function Footer() {
   return (
     <footer>
-      <p>© {new Date().getFullYear()} {process.env.NEXT_PUBLIC_BUILDING_NAME}</p>
+      <p>Contact us at: {process.env.NEXT_PUBLIC_CONTACT_EMAIL}</p>
     </footer>
-  )
+  );
 }
