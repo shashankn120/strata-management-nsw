@@ -1,11 +1,11 @@
-// pages/documents.js
 import Layout from '../components/Layout'
 
 export default function Documents() {
+//Dummy documents dont do anything
   const files = [
-    { name: 'Annual Report 2024', file: '/static/annual-report.pdf' },
-    { name: 'By-Laws', file: '/static/bylaws.pdf' },
-    { name: 'Insurance Certificate', file: '/static/insurance.pdf' }
+    { name: 'Annual Report 2024', file: '/Citadels-Classics.pdf' },
+    { name: 'By-Laws', file: '/Citadels-Classics.pdf' },
+    { name: 'Insurance Certificate', file: '/Citadels-Classics.pdf' }
   ]
 
   return (

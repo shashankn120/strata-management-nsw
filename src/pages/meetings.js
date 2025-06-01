@@ -1,4 +1,3 @@
-// pages/meetings.js
 import Layout from '../components/Layout'
 
 const meetings = [

@@ -5,7 +5,7 @@ export default function LevyLookup() {
   const router = useRouter()
   const { apartment } = router.query
 
-  // Dummy data (could be replaced by a real database or API later)
+  // Dummy data to be replaced later
   const levyData = {
     '101': '$1,200 due by July 15',
     '102': '$950 due by August 1',

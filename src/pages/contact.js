@@ -1,4 +1,3 @@
-// pages/contact.js
 import Layout from '../components/Layout'
 import { useState } from 'react'
 
