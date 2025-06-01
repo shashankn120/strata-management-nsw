@@ -12,6 +12,8 @@ export default function Header() {
         <Link href="/meetings">Meetings</Link>
         <Link href="/documents">Documents</Link>
         <Link href="/contact">Contact Details</Link>
+        <Link href="/levy-lookup">Levy Lookup</Link>
+        <Link href="/maintenance-request">Maintenance Requests</Link>
       </nav>
     </header>
   )

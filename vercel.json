@@ -1,0 +1,26 @@
+{
+  "functions": {
+    "api/contact-form.js": {
+      "runtime": "edge"
+    },
+    "api/maintenance-status.js": {
+      "runtime": "edge"
+    },
+    "api/levy-reminder.js": {
+      "runtime": "edge"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
