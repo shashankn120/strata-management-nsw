@@ -1,20 +1,13 @@
 {
-  "version": 2,
   "functions": {
     "api/contact-form.js": {
-      "runtime": "edge"
+      "runtime": "vercel/edge@2.0.0"
     },
     "api/maintenance-status.js": {
-      "runtime": "edge"
+      "runtime": "vercel/edge@2.0.0"
     },
     "api/levy-reminder.js": {
-      "runtime": "edge"
+      "runtime": "vercel/edge@2.0.0"
     }
-  },
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    }
-  ]
+  }
 }
