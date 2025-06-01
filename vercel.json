@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "functions": {
     "api/contact-form.js": {
       "runtime": "edge"
@@ -14,13 +15,6 @@
     {
       "src": "/api/(.*)",
       "dest": "/api/$1"
-    },
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
     }
   ]
 }
