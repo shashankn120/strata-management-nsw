@@ -7,6 +7,11 @@ export default function Header() {
       <nav style={{ display: 'flex', gap: '1rem' }}>
         <Link href="/">Home</Link>
         <Link href="/committee">Committee</Link>
+        <Link href="/levies">Levies</Link>
+        <Link href="/maintenance">Maintenance</Link>
+        <Link href="/meetings">Meetings</Link>
+        <Link href="/documents">Documents</Link>
+        <Link href="/contact">Contact Details</Link>
       </nav>
     </header>
   )
