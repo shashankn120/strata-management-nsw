@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/contact-form.js": {
-      "runtime": "vercel/edge@2.0.0"
-    }
-  },
   "routes": [
     {
       "src": "/api/(.*)",
