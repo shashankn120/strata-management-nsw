@@ -1,7 +1,7 @@
 import Layout from '../components/Layout'
 
 export default function Documents() {
-//Dummy documents dont do anything
+  // Files reference PDFs in the public/ folder (no /public prefix needed)
   const files = [
     { name: 'Annual Report 2024', file: '/Citadels-Classics.pdf' },
     { name: 'By-Laws', file: '/Citadels-Classics.pdf' },
