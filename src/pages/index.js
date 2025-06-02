@@ -59,7 +59,6 @@ export default function Home() {
         </ul>
       </section>
 
-      {/* 🔔 Levy Reminder Trigger */}
       <section style={{ textAlign: 'center', marginTop: '3rem', paddingBottom: '2rem' }}>
         <button 
           onClick={sendReminder}

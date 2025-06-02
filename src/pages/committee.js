@@ -6,7 +6,7 @@ export default function Committee() {
 
   useEffect(() => {
     setMembers([
-      { role: 'Chairperson', name: 'Alice Wong' },
+      { role: 'Chairperson', name: 'Shashank N' },
       { role: 'Secretary', name: 'Bob Smith' },
       { role: 'Treasurer', name: 'Carol Lee' },
     ])
