@@ -11,8 +11,8 @@ export default function News() {
         <article style={{ marginBottom: '2rem' }}>
           <h2>🧽 Residents Vote to Replace All Floors with Sponge Tiles</h2>
           <p>
-            In a historic 4–3 decision during last week’s strata meeting, residents agreed to trial sponge-based flooring
-            in common areas. "It’s squishy, it’s safe, and it smells like vanilla," said one owner. The installation is expected
+            In a historic 4 to 3 decision during last week&rsquo;s strata meeting, residents agreed to trial sponge-based flooring
+            in common areas. &quot;It&rsquo;s squishy, it&rsquo;s safe, and it smells like vanilla,&quot; said one owner. The installation is expected
             to begin as soon as someone figures out how to stop the tiles from absorbing rainwater.
           </p>
         </article>
@@ -29,7 +29,7 @@ export default function News() {
         <article style={{ marginBottom: '2rem' }}>
           <h2>🌿 Building to Trial Vertical Indoor Garden Made of Plastic Parsley</h2>
           <p>
-            Due to budget constraints, the lobby will be outfitted with a 4-meter high “eco-wall” of
+            Due to budget constraints, the lobby will be outfitted with a 4-meter high &ldquo;eco-wall&rdquo; of
             synthetic parsley. This aims to improve morale and reduce carbon guilt, while never needing water,
             sunlight, or actual effort.
           </p>
