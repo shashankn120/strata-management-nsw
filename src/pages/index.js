@@ -1,7 +1,20 @@
 import Image from 'next/image'
 import Layout from '../components/Layout'
+import { useState } from 'react'
 
 export default function Home() {
+  const [reminderMessage, setReminderMessage] = useState('')
+
+  const sendReminder = async () => {
+    try {
+      const res = await fetch('/api/levy-reminder')
+      const data = await res.json()
+      setReminderMessage(data.message)
+    } catch (error) {
+      setReminderMessage('Failed to send reminder.')
+    }
+  }
+
   return (
     <Layout>
       <section style={{ textAlign: 'center', padding: '2rem 1rem' }}>
@@ -44,6 +57,30 @@ export default function Home() {
           <li>Participate in meetings</li>
           <li>Access strata documents and agendas</li>
         </ul>
+      </section>
+
+      {/* 🔔 Levy Reminder Trigger */}
+      <section style={{ textAlign: 'center', marginTop: '3rem', paddingBottom: '2rem' }}>
+        <button 
+          onClick={sendReminder}
+          style={{
+            backgroundColor: '#0070f3',
+            color: '#fff',
+            border: 'none',
+            padding: '0.75rem 1.5rem',
+            fontSize: '1rem',
+            borderRadius: '8px',
+            cursor: 'pointer',
+            boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
+          }}
+        >
+          Send Levy Reminder
+        </button>
+        {reminderMessage && (
+          <p style={{ marginTop: '1rem', fontWeight: 'bold', color: 'green' }}>
+            {reminderMessage}
+          </p>
+        )}
       </section>
     </Layout>
   )
