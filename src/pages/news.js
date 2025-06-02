@@ -5,7 +5,7 @@ export default function News() {
     <Layout>
       <section style={{ padding: '2rem 1rem', maxWidth: '900px', margin: '0 auto' }}>
         <h1 style={{ fontSize: '2.5rem', textAlign: 'center', marginBottom: '1.5rem' }}>
-          Latest Strata News & Imaginary Developments
+          Latest Strata News & Developments
         </h1>
 
         <article style={{ marginBottom: '2rem' }}>
